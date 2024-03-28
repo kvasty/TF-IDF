@@ -1,0 +1,4 @@
+Django==2.2.19
+pytz==2024.1
+setuptools==69.2.0
+sqlparse==0.4.4
