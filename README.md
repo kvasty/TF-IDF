@@ -27,8 +27,14 @@ source venv/Scripts/activate
 ```
 ```
 pip install -r requirements.txt
+```
+- В папке с файлом manage.py выполните командs:
+```
+python manage.py makemigrations
+```
+```
+python manage.py migrate
 ``` 
-- В папке с файлом manage.py выполните команду:
 ```
 python manage.py runserver
 ``` 
