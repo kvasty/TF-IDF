@@ -16,11 +16,15 @@ TF-IDF — статистический показатель, применяем
 ```
 git clone git@github.com:kvasty/TF-IDF.git
 ```
+```
 cd TF-IDF
+```
 ```
 python -m venv venv
 ```
+```
 source venv/Scripts/activate
+```
 ```
 pip install -r requirements.txt
 ``` 
