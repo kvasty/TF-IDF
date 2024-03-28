@@ -67,7 +67,7 @@ def text_processing(files):
     for f, words in files.items():
         TF = {}
         for w in words:
-            count = TF.get(w, 0)
+            count = TF.get(w, 0)*len(words)
             TF[w] = round((count + 1)/len(words), 3)
         for word, tf in TF.items():
             Table.objects.create(name_file=f, word=word, tf=tf, idf=IDF[word])
