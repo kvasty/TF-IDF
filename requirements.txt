@@ -1,4 +1,10 @@
+colorama==0.4.6
 Django==2.2.19
+iniconfig==2.0.0
+packaging==24.0
+pluggy==1.4.0
+pytest==8.1.1
+python-dotenv==1.0.1
 pytz==2024.1
 setuptools==69.2.0
 sqlparse==0.4.4
